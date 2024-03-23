@@ -1,0 +1,7 @@
+---
+- name: Print out variables
+  hosts: leaf1
+  tasks:
+    - name: Print variable
+      ansible.builtin.debug:
+        msg: "{{ water }}"

@@ -1,0 +1,11 @@
+---
+- name: Configure banner (procedural)
+  hosts: leaf1
+  tasks:
+    - name: Configure a banner
+      eos_config:
+        lines:
+          - "This is a login banner"
+          - EOF
+        parents: banner login
+

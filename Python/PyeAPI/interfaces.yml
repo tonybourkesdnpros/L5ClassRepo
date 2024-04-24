@@ -1,0 +1,33 @@
+devices:
+  leaf1:
+    interfaces:
+      loopback10:
+        ip: 192.168.10.1
+        mask: 32
+      loopback11: 
+        ip: 192.168.11.1
+        mask: 32
+  leaf2:
+    interfaces:
+      loopback10:
+        ip: 192.168.10.2
+        mask: 32
+      loopback11: 
+        ip: 192.168.11.2
+        mask: 32
+  leaf3:
+    interfaces:
+      loopback10:
+        ip: 192.168.10.3
+        mask: 32
+      loopback11: 
+        ip: 192.168.11.3
+        mask: 32
+  leaf4:
+    interfaces:
+      loopback10:
+        ip: 192.168.10.4
+        mask: 32
+      loopback11: 
+        ip: 192.168.11.4
+        mask: 32

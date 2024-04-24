@@ -1,0 +1,16 @@
+---
+- name: Configure banner
+  hosts: leaf1
+  tasks:
+  - name: Configure a banner
+    arista.eos.eos_banner:
+      banner: login
+      text: |
+        This is a login banner
+      state: present
+  - name: MOTD
+    eos_banner:
+      banner: motd
+      text: No matter where you go, there you are
+      state: present
+

@@ -1,0 +1,230 @@
+{
+    "vrf": "default",
+    "routerId": "192.168.101.1",
+    "asn": 65100,
+    "evpnRoutes": {
+        "RD: 192.168.101.1:10010 mac-ip 001c.73f1.c601": {
+            "totalPaths": 1,
+            "routeKeyDetail": {
+                "mac": "001c.73f1.c601",
+                "domain": "local",
+                "rd": "192.168.101.1:10010",
+                "nlriType": "mac-ip"
+            },
+            "evpnRoutePaths": [
+                {
+                    "nextHop": "",
+                    "asPathEntry": {
+                        "asPathType": "Local",
+                        "asPath": "i"
+                    },
+                    "reasonNotBestpath": "noReason",
+                    "routeType": {
+                        "active": true,
+                        "atomicAggregator": false,
+                        "backup": false,
+                        "ecmp": false,
+                        "ecmpContributor": false,
+                        "ecmpHead": false,
+                        "localAgg": false,
+                        "origin": "Igp",
+                        "queued": false,
+                        "stale": false,
+                        "suppressed": false,
+                        "valid": true,
+                        "waitForConvergence": false,
+                        "unknownMetric": false
+                    },
+                    "weight": 0
+                }
+            ]
+        },
+        "RD: 192.168.101.1:10010 mac-ip 001c.73f1.c601 10.1.10.11": {
+            "totalPaths": 1,
+            "routeKeyDetail": {
+                "mac": "001c.73f1.c601",
+                "ipGenAddr": "10.1.10.11",
+                "domain": "local",
+                "rd": "192.168.101.1:10010",
+                "nlriType": "mac-ip"
+            },
+            "evpnRoutePaths": [
+                {
+                    "nextHop": "",
+                    "asPathEntry": {
+                        "asPathType": "Local",
+                        "asPath": "i"
+                    },
+                    "reasonNotBestpath": "noReason",
+                    "routeType": {
+                        "active": true,
+                        "atomicAggregator": false,
+                        "backup": false,
+                        "ecmp": false,
+                        "ecmpContributor": false,
+                        "ecmpHead": false,
+                        "localAgg": false,
+                        "origin": "Igp",
+                        "queued": false,
+                        "stale": false,
+                        "suppressed": false,
+                        "valid": true,
+                        "waitForConvergence": false,
+                        "unknownMetric": false
+                    },
+                    "weight": 0
+                }
+            ]
+        },
+        "RD: 192.168.101.3:10020 mac-ip 001c.73f3.c601": {
+            "totalPaths": 1,
+            "routeKeyDetail": {
+                "mac": "001c.73f3.c601",
+                "domain": "local",
+                "rd": "192.168.101.3:10020",
+                "nlriType": "mac-ip"
+            },
+            "evpnRoutePaths": [
+                {
+                    "nextHop": "192.168.102.3",
+                    "asPathEntry": {
+                        "asPathType": "External",
+                        "asPath": "65001 65299 i"
+                    },
+                    "reasonNotBestpath": "noReason",
+                    "routeType": {
+                        "active": true,
+                        "atomicAggregator": false,
+                        "backup": false,
+                        "ecmp": false,
+                        "ecmpContributor": false,
+                        "ecmpHead": false,
+                        "localAgg": false,
+                        "origin": "Igp",
+                        "queued": false,
+                        "stale": false,
+                        "suppressed": false,
+                        "valid": true,
+                        "waitForConvergence": false,
+                        "unknownMetric": false
+                    },
+                    "localPreference": 100,
+                    "weight": 0
+                }
+            ]
+        },
+        "RD: 192.168.101.4:10020 mac-ip 001c.73f3.c601": {
+            "totalPaths": 1,
+            "routeKeyDetail": {
+                "mac": "001c.73f3.c601",
+                "domain": "local",
+                "rd": "192.168.101.4:10020",
+                "nlriType": "mac-ip"
+            },
+            "evpnRoutePaths": [
+                {
+                    "nextHop": "192.168.102.3",
+                    "asPathEntry": {
+                        "asPathType": "External",
+                        "asPath": "65001 65299 i"
+                    },
+                    "reasonNotBestpath": "noReason",
+                    "routeType": {
+                        "active": true,
+                        "atomicAggregator": false,
+                        "backup": false,
+                        "ecmp": false,
+                        "ecmpContributor": false,
+                        "ecmpHead": false,
+                        "localAgg": false,
+                        "origin": "Igp",
+                        "queued": false,
+                        "stale": false,
+                        "suppressed": false,
+                        "valid": true,
+                        "waitForConvergence": false,
+                        "unknownMetric": false
+                    },
+                    "localPreference": 100,
+                    "weight": 0
+                }
+            ]
+        },
+        "RD: 192.168.101.3:10020 mac-ip 001c.73f3.c601 10.1.20.13": {
+            "totalPaths": 1,
+            "routeKeyDetail": {
+                "mac": "001c.73f3.c601",
+                "ipGenAddr": "10.1.20.13",
+                "domain": "local",
+                "rd": "192.168.101.3:10020",
+                "nlriType": "mac-ip"
+            },
+            "evpnRoutePaths": [
+                {
+                    "nextHop": "192.168.102.3",
+                    "asPathEntry": {
+                        "asPathType": "External",
+                        "asPath": "65001 65299 i"
+                    },
+                    "reasonNotBestpath": "noReason",
+                    "routeType": {
+                        "active": true,
+                        "atomicAggregator": false,
+                        "backup": false,
+                        "ecmp": false,
+                        "ecmpContributor": false,
+                        "ecmpHead": false,
+                        "localAgg": false,
+                        "origin": "Igp",
+                        "queued": false,
+                        "stale": false,
+                        "suppressed": false,
+                        "valid": true,
+                        "waitForConvergence": false,
+                        "unknownMetric": false
+                    },
+                    "localPreference": 100,
+                    "weight": 0
+                }
+            ]
+        },
+        "RD: 192.168.101.4:10020 mac-ip 001c.73f3.c601 10.1.20.13": {
+            "totalPaths": 1,
+            "routeKeyDetail": {
+                "mac": "001c.73f3.c601",
+                "ipGenAddr": "10.1.20.13",
+                "domain": "local",
+                "rd": "192.168.101.4:10020",
+                "nlriType": "mac-ip"
+            },
+            "evpnRoutePaths": [
+                {
+                    "nextHop": "192.168.102.3",
+                    "asPathEntry": {
+                        "asPathType": "External",
+                        "asPath": "65001 65299 i"
+                    },
+                    "reasonNotBestpath": "noReason",
+                    "routeType": {
+                        "active": true,
+                        "atomicAggregator": false,
+                        "backup": false,
+                        "ecmp": false,
+                        "ecmpContributor": false,
+                        "ecmpHead": false,
+                        "localAgg": false,
+                        "origin": "Igp",
+                        "queued": false,
+                        "stale": false,
+                        "suppressed": false,
+                        "valid": true,
+                        "waitForConvergence": false,
+                        "unknownMetric": false
+                    },
+                    "localPreference": 100,
+                    "weight": 0
+                }
+            ]
+        }
+    }
+}

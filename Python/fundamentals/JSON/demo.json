@@ -1,0 +1,14 @@
+{
+    "unicastTable": {
+        "tableEntries": [
+            {
+                "vlanId": 10,
+                "macAddress": "00:1c:73:f1:c6:01",
+                "entryType": "dynamic",
+                "interface": "Port-Channel7",
+                "moves": 3,
+                "lastMove": 1712125688.9123
+            }
+        ]
+    }
+}

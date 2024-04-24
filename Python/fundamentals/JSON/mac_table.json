@@ -1,0 +1,106 @@
+{
+    "unicastTable": {
+        "tableEntries": [
+            {
+                "vlanId": 10,
+                "macAddress": "00:1c:73:00:00:99",
+                "entryType": "static",
+                "interface": "Cpu"
+            },
+            {
+                "vlanId": 10,
+                "macAddress": "00:1c:73:c2:c6:01",
+                "entryType": "static",
+                "interface": "Port-Channel1"
+            },
+            {
+                "vlanId": 10,
+                "macAddress": "00:1c:73:f1:c6:01",
+                "entryType": "dynamic",
+                "interface": "Port-Channel7",
+                "moves": 2,
+                "lastMove": 1711448923.623168
+            },
+            {
+                "vlanId": 20,
+                "macAddress": "00:1c:73:00:00:99",
+                "entryType": "static",
+                "interface": "Cpu"
+            },
+            {
+                "vlanId": 20,
+                "macAddress": "00:1c:73:c2:c6:01",
+                "entryType": "static",
+                "interface": "Port-Channel1"
+            },
+            {
+                "vlanId": 20,
+                "macAddress": "00:1c:73:f3:c6:01",
+                "entryType": "dynamic",
+                "interface": "Vxlan1",
+                "moves": 1,
+                "lastMove": 1711448919.162162
+            },
+            {
+                "vlanId": 1199,
+                "macAddress": "00:1c:73:00:00:99",
+                "entryType": "static",
+                "interface": "Cpu"
+            },
+            {
+                "vlanId": 1199,
+                "macAddress": "00:1c:73:c2:c6:01",
+                "entryType": "static",
+                "interface": "Port-Channel1"
+            },
+            {
+                "vlanId": 1199,
+                "macAddress": "02:1c:73:c3:c6:01",
+                "entryType": "dynamic",
+                "interface": "Vxlan1",
+                "moves": 1,
+                "lastMove": 1711433378.238981
+            },
+            {
+                "vlanId": 3009,
+                "macAddress": "00:1c:73:00:00:99",
+                "entryType": "static",
+                "interface": "Cpu"
+            },
+            {
+                "vlanId": 3009,
+                "macAddress": "00:1c:73:c2:c6:01",
+                "entryType": "static",
+                "interface": "Port-Channel1"
+            },
+            {
+                "vlanId": 4093,
+                "macAddress": "00:1c:73:00:00:99",
+                "entryType": "static",
+                "interface": "Cpu"
+            },
+            {
+                "vlanId": 4093,
+                "macAddress": "00:1c:73:c2:c6:01",
+                "entryType": "static",
+                "interface": "Port-Channel1"
+            },
+            {
+                "vlanId": 4094,
+                "macAddress": "00:1c:73:00:00:99",
+                "entryType": "static",
+                "interface": "Cpu"
+            },
+            {
+                "vlanId": 4094,
+                "macAddress": "00:1c:73:c2:c6:01",
+                "entryType": "static",
+                "interface": "Port-Channel1"
+            }
+        ]
+    },
+    "multicastTable": {
+        "tableEntries": []
+    },
+    "disabledMacLearningVlans": []
+}

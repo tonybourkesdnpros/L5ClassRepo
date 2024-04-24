@@ -1,0 +1,17 @@
+---
+vlans:
+  - id: 10
+    name: VLAN_10
+  - id: 20
+    name: VLAN_20
+  - id: 30
+    name: VLAN_30
+  - id: 31
+    name: VLAN_31
+  - id: 21
+    name: VLAN_21
+  - id: 444
+    name: VLAN_444
+  - id: 22
+    name: VLAN_22
+switches: ['leaf1', 'leaf2', 'leaf3', 'leaf4']
